@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Fractal</title>
+</head>
+<script src="fractal.js"></script>
+<body onload="start();">
+<canvas id="fractalmap" width="1500" height="750" style="border:1px solid #000000"></canvas>
+<br>
+<input type="text" placeholder="Set initial length" id="initlength">
+<input type="text" placeholder="Set length scaling" id="length">
+<input type="text" placeholder="Set theta" id="theta">
+<input type="text" placeholder="Set theta scaling" id="thetascale">
+<input type="text" placeholder="Set iterations" id="iterations">
+<button type="button" onclick="getvals();" id="loader">Load values</button>
+<br>
+<input type="text" placeholder="Animation thing" id="anivalue">
+<input type="text" placeholder="Animation max value" id="maxi">
+<input type="text" placeholder="Animation min value" id="mini">
+<input type="text" placeholder="Animation step" id="step">
+<input type="text" placeholder="Animation delay" id="delay">
+<button type="button" onclick="animater();" id="loader">Animate!</button>
+<button type="button" onclick="stop();" id="loader">Stop.</button>
+</body>
+</html>
+
