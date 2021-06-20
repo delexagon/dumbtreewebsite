@@ -8,4 +8,4 @@ Have fun?
 For animation, 'thing' refers to the characteristic being animated (0 for init length, 1 for length scaling, so on).
 'Animation delay' is the delay in milliseconds between frames. Recommended: 50 for 20 FPS.
 
-Oh, also, while 'angle' is in degrees, the min and max value for angle animations have to be in radians.
+Oh, also, while 'theta' is in degrees, the min and max value for angle animations have to be in radians.
